@@ -15,11 +15,11 @@ import { PedidosComponent } from './pedidos/pedidos.component';
     BrowserModule, 
     FormsModule,
     RouterModule.forRoot ([
-      { path: '', component: InicioComponent },
+      { path: 'inicio', component: InicioComponent },
       { path: 'nosotros', component: NosotrosComponent },
       { path: 'pedidos', component: PedidosComponent}
       ]) ],
-  declarations: [ AppComponent, CabeceraComponent, NosotrosComponent, PedidosComponent ],
+  declarations: [ AppComponent, InicioComponent, CabeceraComponent, NosotrosComponent, PedidosComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
