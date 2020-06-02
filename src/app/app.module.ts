@@ -20,7 +20,7 @@ import { PieComponent } from './pie/pie.component';
       { path: 'pedidos', component: PedidosComponent},
       { path: 'productos', component: ProductosComponent}
       ]) ],
-  declarations: [ AppComponent, NosotrosComponent, PedidosComponent, ProductosComponent,CoCabeceraComponent, PieComponent],
+  declarations: [ AppComponent, NosotrosComponent, PedidosComponent, ProductosComponent,CabeceraComponent, PieComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
