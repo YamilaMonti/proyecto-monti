@@ -20,7 +20,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     RouterModule.forRoot ([
       { path: ' ', component: NosotrosComponent },
       { path: 'pedidos', component: PedidosComponent},
-      { path: 'productos', component: ProductosComponent}
+      { path: 'productos', component: ProductosComponent},
+      { path: 'contacto', component: ContactoComponent}
       ]) ],
   declarations: [ AppComponent, NosotrosComponent, PedidosComponent, ProductosComponent,ContactoComponent,CabeceraComponent, PieComponent],
   bootstrap:    [ AppComponent ]
