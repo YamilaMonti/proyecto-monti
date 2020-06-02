@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
 import { ProductosComponent} from './productos/productos.component';
-import { ContactoComponent } from './contacto/contacto.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { PieComponent } from './pie/pie.component';
 
@@ -19,10 +18,9 @@ import { PieComponent } from './pie/pie.component';
     RouterModule.forRoot ([
       { path: ' ', component: NosotrosComponent },
       { path: 'pedidos', component: PedidosComponent},
-      { path: 'productos', component: ProductosComponent},
-      { path: 'contacto', component: ContactoComponent}
+      { path: 'productos', component: ProductosComponent}
       ]) ],
-  declarations: [ AppComponent, NosotrosComponent, PedidosComponent, ProductosComponent,ContactoComponent,CabeceraComponent, PieComponent],
+  declarations: [ AppComponent, NosotrosComponent, PedidosComponent, ProductosComponent,CoCabeceraComponent, PieComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
