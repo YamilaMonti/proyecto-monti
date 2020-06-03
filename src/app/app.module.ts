@@ -16,11 +16,12 @@ import { PieComponent } from './pie/pie.component';
     BrowserModule, 
     FormsModule,
     RouterModule.forRoot ([
-      { path: ' ', component: NosotrosComponent },
+      { path: ' ', component: CabeceraComponent },
+      { path: 'nosotros', component: NosotrosComponent },
       { path: 'pedidos', component: PedidosComponent},
       { path: 'productos', component: ProductosComponent}
       ]) ],
-  declarations: [ AppComponent, NosotrosComponent, PedidosComponent, ProductosComponent,CabeceraComponent, PieComponent],
+  declarations: [ AppComponent, CabeceraComponent,NosotrosComponent, PedidosComponent, ProductosComponent, PieComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
