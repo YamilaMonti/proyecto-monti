@@ -1,5 +1,11 @@
 img{
-  margin-left: 35%;
-  margin-right: 50%;
-  margin-top: 6%;
+  height:auto;
+  max-width: 100%;
+}
+#contenedor{
+  width: 30%;
+  right: 30%;
+  top:28%;
+  left:37.5%;
+  position: absolute;
 }
