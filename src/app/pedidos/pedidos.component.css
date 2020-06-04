@@ -1,19 +1,11 @@
 label{
   color:black;
-  size: 14%;
-  margin-left: 2%;
+  size: 14%;  
 }
 h5{
   color:black;
   size: 25%;
 }
 #Contenedor{
-  margin-top:43%;
-  margin-left: 2%;
-}
-input{
-  margin-left: 2%;
-}
-select{
   margin-left: 2%;
 }

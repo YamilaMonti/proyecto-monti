@@ -17,7 +17,7 @@ import { PieComponent } from './pie/pie.component';
     BrowserModule, 
     FormsModule,
     RouterModule.forRoot ([
-      { path: '', component: InicioComponent },
+      { path: ' ', component: InicioComponent },
       { path: 'nosotros', component: NosotrosComponent },
       { path: 'pedidos', component: PedidosComponent},
       { path: 'productos', component: ProductosComponent}
