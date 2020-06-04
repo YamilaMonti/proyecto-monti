@@ -2,10 +2,10 @@ img{
   height:auto;
   max-width: 100%;
 }
-#contenedor{
+#card{
   width: 25%;
   right: 25%;
-  top:2%;
+  top:50%;
   left:37.5%;
   position: absolute;
 }
